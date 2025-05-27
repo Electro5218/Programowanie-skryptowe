@@ -29,7 +29,7 @@ with open("public_key.pem", "wb") as f:
     )
 
 # 2. Wczytaj plik do podpisania
-file_path = "plik_do_podpisania.txt"
+file_path = "LAB12ZADANIE3/plik_do_podpisania.txt"
 with open(file_path, "rb") as f:
     file_data = f.read()
 
